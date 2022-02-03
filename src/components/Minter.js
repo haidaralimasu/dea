@@ -154,7 +154,7 @@ const Minter = () => {
   };
 
   const proof2 = async () => {
-    const res = await axios.get(`http://1782.62.220.62/get-proof-2/${account}`);
+    const res = await axios.get(`http://178.62.220.62/get-proof-2/${account}`);
     return res;
   };
 
