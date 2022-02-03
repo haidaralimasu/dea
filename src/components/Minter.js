@@ -154,13 +154,17 @@ const Minter = () => {
   };
 
   const proof2 = async () => {
-    const res = await axios.get(`http://178.62.220.62/get-proof-2/${account}`);
+    const res = await axios.get(
+      `https://wl2.kodinghandle.com/get-proof-2/${account}`
+    );
     return res;
   };
 
   const proof3 = async () => {
     // const res = "https://www.google.com";
-    const res = await axios.get(`http://164.92.223.184/get-proof-3/${account}`);
+    const res = await axios.get(
+      `https://wl3.kodinghandle.com/get-proof-3/${account}`
+    );
     // const res = await axios.get(`http://localhost:8000/get-proof-3/${account}`);
 
     return res;
